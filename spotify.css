@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    font-family: "Ubuntu", sans-serif;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    height: 49px;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+
+}
+.brand img{
+    width: 44px;
+    padding: 0px 8px; 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 22px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 33px;
+    background-image: url('ss.jpg');
+    
+   
+}
+.bottom{
+    background-color: black;
+    height: 120px;
+    font-family: "Varela Round", sans-serif;
+    
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+
+}
+
+#myprogressbar{
+    width: 85vw;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+.icons{
+    margin-top: 10px;
+}
+
+.songitem{
+    height: 80px;
+    display: flex;
+    background-color: wheat;
+    width: 50%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+    border-radius: 40px;
+    
+}
+.songitem img{
+    width: 70px;
+    margin-left: 30px;
+    align-items: center;
+    height: 70px;
+    border-radius: 100%;
+}
+.songitem svg{
+    margin-right: 30px;
+}
+
+.songlistplay svg{
+    cursor: pointer;
+}
+.timestampp{
+margin-bottom: 30px;
+}
+.icons svg{
+    cursor: pointer;
+    margin: 0px 40px;
+
+}
+
