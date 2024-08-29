@@ -57,13 +57,16 @@ nav ul{
 }
 #newpage h2{
     padding: 90px;
+    color: aquamarine;
 }
 #newpage button{
-    padding: 20px;
+    padding: 10px;
     background-color: green;
     color: white;
     font-size: larger;
     cursor: pointer;
+    border: 0cap;
+    border-radius: 10px;
 }
 #page2{
     z-index: 2;
@@ -114,7 +117,7 @@ nav ul{
     height: 80px;
     display: flex;
     background-color: wheat;
-    width: 60%;
+    width: 50%;
     color: black;
     margin: 12px 0;
     justify-content: space-between;
@@ -148,16 +151,35 @@ margin-bottom: 30px;
 
 }
 
-@media only screen and (max-width: 1100px){
+/* @media only screen and (max-width: 1100px){
     body{
         background-color: aquamarine;
     }
-}
+} */
 @media only screen and (max-width: 600px){
     .songitem{
         width: 90%;
         font-size: small;
         
     }
-}
+    #newpage h2{
+        padding: 20px;
+        
+    }
+    #newpage{
+        margin: auto;
+        padding: 20px;
+        margin-top: 50px;
+        font-size: x-small;
+    }
+    #newpage button{
+        padding: 10px;
+        background-color: green;
+        color: white;
+        font-size: x-small;
+        cursor: pointer;
+        border: 0cap;
+        border-radius: 10px;
 
+    }
+}
