@@ -25,10 +25,10 @@ var myprogressbar = document.getElementById('myprogressbar');
 var songitem = Array.from(document.getElementsByClassName('songitem'));
 var songs = [
     {songname: "FireSong", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songname: "Rolex Theme", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songname: "Oh Super Nova", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songname: "Singam Singam", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songname: "ET theme", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songname: "Rolex-Theme", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songname: "Oh-Super-Nova", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songname: "Singam-Singam", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songname: "ET-theme", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
 ];
 
 songitem.forEach((element, i) => {
