@@ -67,7 +67,7 @@ nav ul{
 
 }
 .container{
-    min-height: 75vh;
+    min-height: 95vh;
     background-color: black;
     color: white;
     font-family: "Varela Round", sans-serif;
@@ -77,16 +77,13 @@ nav ul{
     width: 70%;
     border-radius: 15px;
     padding: 33px;
-    background-image: url('ss.jpg');
-    
-    
-   
+    background-image: url('ss.jpg');   
 }
 .bottom{
     background-color: black;
     height: 120px;
+    width: 100%;
     font-family: "Varela Round", sans-serif;
-    
     font-size: larger;
     text-align: center;
     display: flex;
@@ -94,8 +91,7 @@ nav ul{
     align-items: center;
     color: white;
     flex-direction: column;
-    
-
+    position: fixed;
 }
 
 #myprogressbar{
@@ -103,6 +99,7 @@ nav ul{
     margin-top: 20px;
     align-items: center;
     text-align: center;
+    background-color: green;
     
 }
 .icons{
