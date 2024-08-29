@@ -16,6 +16,7 @@ nav{
 }
 nav ul li{
     padding: 0px 12px;
+    cursor: pointer;
 }
 nav ul{
     display: flex;
@@ -36,7 +37,35 @@ nav ul{
     font-weight: bold;
     font-size: 1.3rem;
 }
+#newpage{
+    background-color: black;
+    color: white;
+    min-height: 70vh;
+    width: 60%;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    padding: 50px;
+    margin: 100px;
+    margin-left: 17%;
+    display: none;
+}
+#newpage h2{
+    padding: 90px;
+}
+#newpage button{
+    padding: 20px;
+    background-color: green;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+#page2{
+    z-index: 2;
+    display:block;
 
+}
 .container{
     min-height: 75vh;
     background-color: black;
@@ -49,6 +78,7 @@ nav ul{
     border-radius: 15px;
     padding: 33px;
     background-image: url('ss.jpg');
+    
     
    
 }
@@ -83,7 +113,7 @@ nav ul{
     height: 80px;
     display: flex;
     background-color: wheat;
-    width: 50%;
+    width: 60%;
     color: black;
     margin: 12px 0;
     justify-content: space-between;

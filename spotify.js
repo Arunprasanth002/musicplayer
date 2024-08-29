@@ -1,3 +1,22 @@
+var newpagelink = document.getElementById("newpagelink");
+var homebtn = document.getElementById("homebtn");
+var page2 = document.getElementById("page2");
+var newpage = document.getElementById("newpage");
+
+
+
+newpagelink.addEventListener('click',()=>{
+    page2.style.display = "none";
+    newpage.style.display = "block";
+})
+
+homebtn.addEventListener('click',()=>{
+    page2.style.display = "block";
+    newpage.style.display = "none";
+})
+
+
+
 var songindex = 0;
 var audioelement = new Audio('songs/1.mp3');
 
